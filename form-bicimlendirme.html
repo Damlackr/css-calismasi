@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            CSS ÖĞRENİYORUM
+        </title>
+        <style>
+            body{
+                font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: darkmagenta;
+                font-weight: bold;
+            }
+            #formkutusu{
+                border: darkblue solid 2px;
+                padding: 20px;
+                border-radius: 10px;
+                background-color: darksalmon;
+            }
+            input{
+                border:darkmagenta solid 2px;
+                color:darkblue;
+                padding: 5px;
+                margin:10px;
+                background-color: pink;
+
+            }
+            input:focus{
+                background-color: powderblue;
+                
+            }
+        </style>
+    </head>
+    <body>
+        <div id="formkutusu">
+            <form>
+                <table>
+                    <tr><td>Ad Soyad:</td><td><input type="text"></td></tr>
+                    <tr><td>Yas:</td><td><input type="number"></td></tr>
+                    <tr><td><input type="submit"><input type="reset"></td></tr>
+                </table>
+            </form>
+        </div>
+    </body>
+</html>
